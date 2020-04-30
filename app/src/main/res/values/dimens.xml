@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_alert_dialog_button_bar_height">48dp</dimen>
+    <dimen name="navigation_bar_height">10dp</dimen>
+    <dimen name="navigation_bar_width">0dp</dimen>
+    <dimen name="abc_action_bar_default_height_material">56dp</dimen>
+    <dimen name="abc_action_bar_progress_bar_size">40dp</dimen>
+    <dimen name="abc_text_size_subtitle_material_toolbar">16dp</dimen>
+
+
+    <dimen name="alert_dialog_padding">5dp</dimen>
+
+    <dimen name="notification_large_icon_width">64dp</dimen>
+    <dimen name="notification_subtext_size">12dp</dimen>
+    <dimen name="row_height">38dp</dimen>
+</resources>

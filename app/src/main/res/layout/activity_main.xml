@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/layoutScanButton">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/listScannedDevices" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="10dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <TextView android:textColor="@color/colorPrimary" android:gravity="center" android:layout_gravity="center" android:id="@+id/txtNoDevicesFound" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="No device Found"/>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/layoutScanButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="8dp" android:layout_alignParentBottom="true">
+        <Button android:textColor="@android:color/white" android:id="@+id/btnScan" android:background="@color/colorPrimary" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Start Scan"/>
+        <ProgressBar android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/pgbScan" android:layout_width="24dp" android:layout_height="24dp" android:indeterminateDrawable="@mipmap/ic_launcher" android:layout_marginStart="16dp"/>
+    </FrameLayout>
+</RelativeLayout>

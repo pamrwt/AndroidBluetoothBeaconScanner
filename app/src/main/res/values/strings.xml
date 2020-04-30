@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+
+    <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="common_google_play_services_unknown_issue">%1$s is having trouble with Google Play services. If the problem persists, please contact the developer for assistance.</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="app_name">iBeacon &amp; BLE Scanner</string>
+
+    <string name="character_counter_pattern">%1$d / %2$d</string>
+    <string name="enable_bluetooth_question">Bluetooth is disabled. Activate now?</string>
+    <string name="ga_trackingId">UA-74985818-1</string>
+    <string name="gcm_defaultSenderId">46082992809</string>
+    <string name="google_app_id">1:46082992809:android:aa638c032bc78083</string>
+    <string name="ibeacon_distance">%1$s meters</string>
+    <string name="label_major">Major:</string>
+    <string name="label_minor">Minor:</string>
+    <string name="last_seen_at_desc">Last seen at %1$s</string>
+    <string name="menu_item_share_address_only">Device Address</string>
+    <string name="menu_item_share_all_device_info">All device info</string>
+    <string name="menu_item_share_name_only">Device Name</string>
+    <string name="no_devices_found">Oh no!\10No devices found</string>
+    <string name="scan_button_text_start">Start Scan</string>
+    <string name="scan_button_text_stop">Stop Scan</string>
+    <string name="scanning_progress_message">Scanning...</string>
+    <string name="share_device_info_title">Share device info to...</string>
+</resources>
